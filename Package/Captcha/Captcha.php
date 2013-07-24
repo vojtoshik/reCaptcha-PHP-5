@@ -79,7 +79,7 @@ class Captcha
      * Set public key
      *
      * @param string $key
-     * @return reCaptcha
+     * @return Captcha
      */
     public function setPublicKey($key)
     {
@@ -101,7 +101,7 @@ class Captcha
      * Set private key
      *
      * @param string $key
-     * @return reCaptcha
+     * @return Captcha
      */
     public function setPrivateKey($key)
     {
@@ -123,7 +123,7 @@ class Captcha
      * Set public key
      *
      * @param string $error
-     * @return reCaptcha
+     * @return Captcha
      */
     public function setError($error)
     {
@@ -142,7 +142,7 @@ class Captcha
     }
 
     /**
-     * Generates reCaptcha form to output to your end user
+     * Generates Captcha form to output to your end user
      *
      * @throws Exception
      * @return string
